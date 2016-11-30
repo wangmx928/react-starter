@@ -1,6 +1,9 @@
 {
   "name": "set-up",
   "version": "1.0.0",
+  "babel": {
+    "presets": ["react"]
+  },
   "description": "1. Create a directory and README.md file ```bash mkdir set-up cd set-up touch README.md ```",
   "main": "index.js",
   "scripts": {
@@ -8,5 +11,10 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.18.2",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0"
+  }
 }
