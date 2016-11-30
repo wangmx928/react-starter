@@ -1,5 +1,5 @@
 {
-  "name": "set-up",
+  "name": "react-starter",
   "version": "1.0.0",
   "babel": {
     "presets": [
@@ -7,7 +7,7 @@
       "react"
     ]
   },
-  "description": "1. Create a directory and README.md file ```bash mkdir set-up cd set-up touch README.md ```",
+  "description": "Quick starter for React app",
   "main": "index.js",
   "scripts": {
     "compile": "webpack",
