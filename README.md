@@ -36,4 +36,15 @@ git add .
 git commit -m "add babel"
 ```
 
+5. Webpack bundles all JS together into a single file.
+[detailed tutorial](http://andrewhfarmer.com/build-your-own-starter/#4-webpack)
+```
+npm install --save webpack babel-loader
+
+touch src/main.js
+touch webpack.config.js
+
+git add .
+git commit -m "add webpack"
+```
 
