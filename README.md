@@ -48,3 +48,43 @@ git add .
 git commit -m "add webpack"
 ```
 
+6. Add script to package.json file
+`"compile": "webpack"`
+
+run `npm run compile` in the commandline
+
+7. Add Express as the server
+```
+npm install --save express webpack-dev-middleware
+
+touch server.js, frontend/index.html
+```
+
+Try to run the `npm start` and then opening `http://localhost:3000`
+
+8. Add React npm package
+
+```
+npm install --save react react-dom
+
+touch src/Counter.js
+
+git add .
+git commit -m "add react"
+```
+
+Remeber to update these files:
+- src/main.js
+- frontend/index.html
+
+# DONE!!! CONGRATULATIONS!!!
+
+A bunch of stuff you may or may not need:
+
+- CSS processor(s)
+- HMR / Auto Reload
+- Routing
+- Flux/Redux/MobX
+- Server-side rendering
+- Database
+- AJAX / Networking
