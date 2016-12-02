@@ -11,7 +11,7 @@ app.use(express.static(__dirname + '/frontend'));
 app.use(webpackDevMiddleware(compiler, {
   hot: true,
   filename: 'bundle.js',
-  publicPath: '/public',
+  publicPath: '/',
   stats: {
     colors: true,
   },
